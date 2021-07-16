@@ -1,0 +1,14 @@
+setup.py
+masterredis/__init__.py
+masterredis/items.py
+masterredis/main.py
+masterredis/middlewares.py
+masterredis/pipelines.py
+masterredis/settings.py
+masterredis/spiders/__init__.py
+masterredis/spiders/master.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

@@ -6,13 +6,9 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
-
-class SlaveredisItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
-
+class MasterredisItem(scrapy.Item):
+    # 定义url地址存储
+    url = scrapy.Field()
 
 class AskquestionItem(scrapy.Item):
     title = scrapy.Field()
@@ -20,3 +16,4 @@ class AskquestionItem(scrapy.Item):
     reading = scrapy.Field()
     ask = scrapy.Field()
     datetime = scrapy.Field()
+

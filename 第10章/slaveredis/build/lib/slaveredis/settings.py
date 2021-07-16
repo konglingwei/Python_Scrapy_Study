@@ -108,12 +108,10 @@ mongo_db_collection = 'question'  #数据表名
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 #配置redis主服务信息
-# REDIS_URL = 'redis://root:@127.0.0.1:6379'
-REDIS_URL = 'redis://root:@119.23.209.168:6379'
+REDIS_URL = 'redis://root:@127.0.0.1:6379'
 REDIS_ENCODING = "utf-8"
 
-# MYSQL_HOST = "localhost"
-MYSQL_HOST = "119.23.209.168"
+MYSQL_HOST = "localhost"
 MYSQL_DBNAME = "slave"
 MYSQL_USER = "root"
 MYSQL_PASSWORD = "klw120110119"

@@ -61,7 +61,7 @@ class SlavePipeline(object):
 # -------------------------------------------------------------------
 #     def __init__(self):
 #         # connection database
-#         self.connect = pymysql.connect(host='119.23.209.168', user='root', passwd='klw120110119',
+#         self.connect = pymysql.connect(host='localhost', user='root', passwd='klw120110119',
 #                                        db='slave', charset='utf8')  # 后面三个依次是数据库连接名、数据库密码、数据库名称
 #         # get cursor
 #         self.cursor = self.connect.cursor()
@@ -139,7 +139,7 @@ import pymysql
 class LvyouPipeline(object):
     def __init__(self):
         # connection database
-        self.connect = pymysql.connect(host='119.23.209.168', user='root', passwd='klw120110119',
+        self.connect = pymysql.connect(host='localhost', user='root', passwd='klw120110119',
                                        db='slave', charset='utf8')  # 后面三个依次是数据库连接名、数据库密码、数据库名称
         # get cursor
         self.cursor = self.connect.cursor()

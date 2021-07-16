@@ -52,5 +52,11 @@ def list_iter(name):
     list_count = key.llen(name)
     for index in range(list_count):
         yield key.lindex(name, index)
-for item in list_iter('list'):
-    print(item)
+# for item in list_iter('list'):
+#     print(item)
+
+print("______________________________________________________________________________")
+#
+print(key.llen('slave:items'))
+for item2 in list_iter('slave:items'):
+    print(item2)
